@@ -2,16 +2,14 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
 </head>
-<body>
-<title>Untitled Document</title>
-</head>
-<body>
+<h1>Successfully scheduled Maintenance on below hosts </h1>
+<body style="background-color:#F0E68C">
 <form method="POST" action="/search4">
 <table border="1" cellpadding="5" cellspacing="5">
-<tr><td> The first name entered is </td><td> {{ the_name1 }}</td></tr>
-<tr><td>The Last name entered is </td><td> {{ the_lname1 }}</td></tr>
+<tr><td> Maintenance scheduled for the hosts </td><td> {{ the_name1 }}</td></tr>
+<tr><td>Downtime for upto </td><td> {{ the_lname1 }}</td></tr>
+<tr><td>Comments entered for Downtime </td><td> {{ the_comment }} </td></tr>
 </table>
 </form>
 </body>
