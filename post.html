@@ -2,13 +2,15 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
 </head>
-<body>
+<h1>Centralised maintenance page between the King and Dynatrace</h1>
+
+<body style="background-color:#F0E68C">
 <form method="POST" action="/search">
-<table>
-<tr><td>Name: </td> <td><input name="name" type='TEXT' width=90 </td></tr>
-<tr><td>Last Name: </td> <td><input name="lname" type='TEXT' width=90 </td></tr>
+<table border="1" cellpadding="5" cellspacing="5">
+<tr><td>Enter the Host name with comma separated value: </td> <td><input name="name" type='TEXT' width=100 </td></tr>
+<tr><td>Enter the End time in minutes: </td> <td><input name="lname" type='TEXT' width=100 </td></tr>
+<tr><td>Enter the Downtime comment: </td> <td><input name="comment" type='TEXT' width=100 </td></tr>
 </table>
 <p> when you are ready, Please click on the SUBMIT button </p>
 <p><input value='SUBMIT' type='SUBMIT'></p>
